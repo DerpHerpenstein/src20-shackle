@@ -1,7 +1,7 @@
 # SRC-20 OP: Shackle
 
 ## Introduction
-The Bitcoin Stamps ecosytem was built on Counterparty.  Art stamps remain 100% useable on Counterparty, but due to some internal conflict in the past, the SRC-20 token standard no longer has any connection to the broader Counterparty ecosystem. This issue divides and confuses the community, and makes it more difficult to build infrastructure.  
+The Bitcoin Stamps ecosytem was built on Counterparty.  Art stamps remain 100% useable on Counterparty, but due to some internal conflict in the past, the SRC-20 token standard no longer has any connection to the broader Counterparty ecosystem. This issue divides and confuses the community. It also makes it more difficult to build infrastructure.  
 
 Since ths Stamps indexer utilizes a Counterparty indexer, it would be possible to make a small update to the SRC-20 token standard that allows SRC-20 tokens to be attached to Stamps. This is desireable because it will allow for SRC-20 to take advantage of the new developments in the Counterparty protocol, and it will allow SRC20 tokens to bring liquidity into the Counterparty ecosystem.
 
@@ -50,5 +50,5 @@ Reshackling an SRC-20 will remove it from the "from" Stamp and move it to the "t
 The CPID that the SRC-20 is being shackled to:
 1. Must be a valid stamp
 2. Must have a locked supply
-3. Must have a value of 1
+3. Must have a supply of 1
 4. Must not be divisible
